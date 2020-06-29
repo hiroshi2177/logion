@@ -18,9 +18,9 @@
 ## 使い方
 1. 新規登録・ログインまでの流れ
 - 下記のリンクから会員登録(無料)します。
-　 - https://github.com/hiroshi2177/login/signup_form.php
+　 https://github.com/hiroshi2177/login/signup_form.php
 - 登録ができたら下記のリンクからログインします。
-　 - https://github.com/hiroshi2177/login/login_form.php
+　 https://github.com/hiroshi2177/login/login_form.php
   
  2. マイページ/ログアウト
  - マイページには名前とメールアドレスが表示されます。
