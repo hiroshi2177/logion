@@ -30,12 +30,18 @@
 
 ## ポイント
 
-```php:UserLogic.php
+```php:hellow.php
 $arr[] = password_hash($userData['password'],PASSWORD_DEFAULT);
 ```
 
 
--この一文によってパスワードのハッシュ化を行って、セキュリティレベルを上げている。
+```php:hello.php
+function hello(){
+　return "hello world!";
+}
+```
+
+- この一文によってパスワードのハッシュ化を行って、セキュリティレベルを上げている。
 
 
 ## データベース内容
