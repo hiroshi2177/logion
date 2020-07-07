@@ -30,7 +30,10 @@
 
 ##ポイント
 
-'$arr[] = password_hash($userData['password'],PASSWORD_DEFAULT); '
+```classes:UserLogic.php
+$arr[] = password_hash($userData['password'],PASSWORD_DEFAULT);
+```
+
 
 -この一文によってパスワードのハッシュ化を行って、セキュリティレベルを上げている。
 
