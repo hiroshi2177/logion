@@ -34,13 +34,6 @@
 $arr[] = password_hash($userData['password'],PASSWORD_DEFAULT);
 ```
 
-
-```php:hello.php
-function hello(){
-　return "hello world!";
-}
-```
-
 - この一文によってパスワードのハッシュ化を行って、セキュリティレベルを上げている。
 
 
