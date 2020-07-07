@@ -31,6 +31,11 @@
  - テーブル名
       - [users]
  - カラム名/設定
+| カラム名 | 型 | 字数 | オプション |
+| :---| :---:| :---:| ---: |
+| id | INT | 11 | AI |
+| name | VARCHARS | 64字 |  |
+ 
       - [id]        INT　AI(自動的に番号振り分け)
       - [name]      VARCHARS　64字　
       - [email]     VARCHARS　191字　UNIQE(重複がないようにする)
