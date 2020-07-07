@@ -34,7 +34,7 @@
 $arr[] = password_hash($userData['password'],PASSWORD_DEFAULT);
 ```
 
-- この一文によってパスワードのハッシュ化を行って、セキュリティレベルを上げている。
+- calssesファイルの「UserLogic.php」にある、この一文によってパスワードのハッシュ化を行って、セキュリティレベルを上げている。
 
 
 ## データベース内容
