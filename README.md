@@ -32,15 +32,13 @@
       - [users]
  - カラム名/設定
  
-| カラム名 | 型 | 字数 | オプション |
-| :---| :---:| :---:| ---: |
-| id | INT | 11 | AI |
-| name | VARCHARS | 64字 |  |
+| カラム名 | 型 | 字数(字) | オプション |
+| :---| :---:| :---:| :---: |
+| id | INT | 11 | AI(自動的に番号振り分け) |
+| name | VARCHARS | 64 |  |
+| email | VARCHARS| 191 | UNIQE(重複がないようにする)|
+| password| VARCHARS | 191 | |
 
-| TH 左寄せ | TH 中央寄せ | TH 右寄せ |
-| :--- | :---: | ---: |
-| TD | TD | TD |
-| TD | TD | TD |
  
       - [id]        INT　AI(自動的に番号振り分け)
       - [name]      VARCHARS　64字　
