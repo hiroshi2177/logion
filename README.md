@@ -28,9 +28,9 @@
  - マイページ画面からログアウトボタンを押し、ログアウトすると、再度ログインしないとデータベースと接続できない設定になっています。
 
 
-##ポイント
+## ポイント
 
-```classes:UserLogic.php
+```php:UserLogic.php
 $arr[] = password_hash($userData['password'],PASSWORD_DEFAULT);
 ```
 
